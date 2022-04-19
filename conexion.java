@@ -28,7 +28,7 @@ public class JavaPostgreSQLBasic {
             // Database connect
             // Conectamos con la base de datos
             connection = DriverManager.getConnection(
-                    "jdbc:postgresql://192.168.100.73:5050/prueba-jenkins",
+                    "jdbc:postgresql://192.168.100.73:5432/prueba-jenkins",
                     "ana", "ana");
  
             boolean valid = connection.isValid(50000);
